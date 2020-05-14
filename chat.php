@@ -26,7 +26,7 @@ a {
 #wrapper, #loginform {
     margin:0 auto;
     padding-bottom:25px;
-    background:#EBF4FB;
+    background:#0000FF;
     width:504px;
     border:1px solid #ACD8F0; }
   
