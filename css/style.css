@@ -51,12 +51,12 @@ ul, li {
 #Banner {
 	width: 0;
 	height: 100vh;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e64741+0,e6255d+100,7db9e8+100 */
-	background: #e64741; /* Old browsers */
-	background: -moz-linear-gradient(top, #e64741 0%, #e6255d 100%, #7db9e8 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #e64741 0%,#e6255d 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #e64741 0%,#e6255d 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e64741', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	overflow: hidden;
 	position: relative;
 }
@@ -345,7 +345,7 @@ body.active .mscroll {
 }
 #OurBlog .each-block .icon {
   float: left;
-  background-color: #e6275c;
+  background-color: #2989d8;
   padding: 8px 10px 4px;
   margin-right: 16px;
 }
@@ -375,7 +375,7 @@ body.active .mscroll {
     content: "";
     width: 2px;
     height: 100%;
-    background-color: #e4e4e4;
+    background-color: #2989d8;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -384,7 +384,7 @@ body.active .mscroll {
     content: "";
     width: 14px;
     height: 14px;
-    background-color: #e6275c;
+    background-color: #2989d8;
     position: absolute;
     border-radius: 50%;
     right: -34%;
@@ -549,7 +549,7 @@ body.active .mscroll {
 }
 #Contact a.email-btn {
     color: #fff;
-    background-color: #f46674;
+    background-color: ;
     padding: 12px 30px;
     display: inline-block;
     border-radius: 6px;
