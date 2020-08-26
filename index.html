@@ -18,12 +18,39 @@
   margin-left:auto;
   margin-right:auto;
 }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
 </STYLE>
 </HEAD>
 <BODY style="background-image: url('/bgimage.png'); background-attachment: fixed;">
   <h1 align="center" class="sitehead">SWL</h1>
   <p align="center" class="sitehead"><marquee>This website was coded in pure HTML and CSS by Siddharth Jai Gokulan. This website is hosted on GitHub Pages. Learn to code as a pastime during the COVID-19 pandemic! Learn more by clicking the banner below. To submit feedback or suggestions, email me at siddhu.sathu@gmail.com or put it in the #feedback channel in my Discord server. Link at the bottom of the page.</marquee></p>
   <a href="code.html"><img src="/banner.png" align="center" width=100%></img></a>
+  <a href="code.html"><div class="card">
+    <img src="Picture1.png" alt="Avatar" style="width:100%">
+    <div class="container">
+      <h4><b>Learn to Code</b></h4>
+      <p>An educational pastime</p>
+    </div>
+  </div></a>
   <h1 align="center" class="sitehead"><br>Useful software downloads</h1>
   <p align="center" class="sitehead">This software isn't mine, but it might be helpful to you!</p>
   <a href="https://archive.org/download/wlsetup-all_201704/wlsetup-all.exe" class="button">Windows Live Essentials 2012 (Movie Maker, Photo Gallery, WLM, Windows Live Writer, Windows Live Mail, OneDrive)</a>
