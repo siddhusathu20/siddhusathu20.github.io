@@ -1,3 +1,2 @@
-# siddhusathu20.github.io
-The one stop shop for all things SWL.
-My website, basically.
+# THE FIRES OF ENTIA
+The website for my short story series.
